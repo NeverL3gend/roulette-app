@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('table.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.mainSec {
+  width: 25%;
+  height: 648px;
+  float: left;
+  margin-left: 37%;
+  margin-top: 5%;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+h1 {
+  margin-left: 31%;
+  font-size: 50px;
+  float: left;
+}
+
+.userSec, .passwordSec {
+  width: 50%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid;
+  margin-left: 30%;
+  float: left;
+}
+
+.buttonSec {
+  transition-duration: 0.4s;
+  float: left;
+  margin-left: 46%;
+  margin-top: 5%;
+  background-color: rgb(110, 3, 13);
+  color: white;
+  font-size: 25px;
+  border: none;
+}
+
+
+.buttonSec:hover{
+  background-color: rgb(201, 7, 6);
+  color: white;
+}
+
+.loginSec {
+  float: left;
+  margin-top: 10%;
+  margin-left: -15%;
+  font-size: 20px;
+}
